@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "priority": 2,
+    "condition": {
+      "regexFilter": "https://www.google.com/search\\?(?:.*&)?udm=.*",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "condition": {
+      "regexFilter": "https://www.google.com/search\\?(?:.*&)?tbm=.*",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "condition": {
+      "regexFilter": "https://www.google.com/search\\?(?:.*&)?q=.*",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "addOrReplaceParams": [
+              {
+                "key": "udm",
+                "value": "14"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+]
