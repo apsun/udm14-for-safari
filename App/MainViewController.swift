@@ -37,7 +37,10 @@ fileprivate class MainViewControllerImpl
             ),
             PreferenceSection(
                 header: "About",
-                footer: "Credit to udm14.com for the method and logo.",
+                footer: """
+                    Credit to udm14.com for the method and logo. This app is not affiliated \
+                    with Google or udm14.com.
+                    """,
                 preferences: [
                     Preference(
                         id: Self.prefGitHub,
@@ -45,7 +48,7 @@ fileprivate class MainViewControllerImpl
                     ),
                     Preference(
                         id: Self.prefUdm14,
-                        type: .button(label: "More info on udm14.com")
+                        type: .button(label: "More info about \"&udm=14\"")
                     ),
                 ]
             ),
