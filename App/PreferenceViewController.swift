@@ -97,7 +97,7 @@ fileprivate class ButtonCell: PreferenceCell {
     func setLabel(_ text: String) {
         var contentConfig = self.defaultContentConfiguration()
         contentConfig.text = text
-        contentConfig.textProperties.color = .link
+        contentConfig.textProperties.color = .accent
         self.contentConfiguration = contentConfig
     }
 }
