@@ -12,6 +12,10 @@ fileprivate class MainViewControllerImpl
     : UIViewController
     , PreferenceDelegate
 {
+    private static let prefSettings = "open_settings"
+    private static let prefGitHub = "open_github"
+    private static let prefUdm14 = "open_udm14"
+
     private var preferenceViewController: PreferenceViewController!
 
     override func viewDidLoad() {
@@ -23,13 +27,25 @@ fileprivate class MainViewControllerImpl
                 footer: """
                     Enable the extension in Safari settings, grant permissions for google.com, \
                     and you're all set!
-
-                    Credit to udm14.com for the method and logo.
                     """,
                 preferences: [
                     Preference(
-                        id: "open_settings",
+                        id: Self.prefSettings,
                         type: .button(label: "Open Safari extension settings")
+                    ),
+                ]
+            ),
+            PreferenceSection(
+                header: "About",
+                footer: "Credit to udm14.com for the method and logo.",
+                preferences: [
+                    Preference(
+                        id: Self.prefGitHub,
+                        type: .button(label: "Visit project on GitHub")
+                    ),
+                    Preference(
+                        id: Self.prefUdm14,
+                        type: .button(label: "More info on udm14.com")
                     ),
                 ]
             ),
@@ -43,11 +59,14 @@ fileprivate class MainViewControllerImpl
         self.preferenceViewController.delegate = self
     }
 
-
     func preferenceView(didClickButton id: String) {
         switch id {
-        case "open_settings":
+        case Self.prefSettings:
             UIApplication.shared.open(URL(string: "App-Prefs:SAFARI&path=WEB_EXTENSIONS")!)
+        case Self.prefGitHub:
+            UIApplication.shared.open(URL(string: "https://github.com/apsun/udm14-for-safari")!)
+        case Self.prefUdm14:
+            UIApplication.shared.open(URL(string: "https://udm14.com/")!)
         default:
             abort()
         }
