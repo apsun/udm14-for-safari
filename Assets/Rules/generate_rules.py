@@ -6,7 +6,7 @@ import os
 import urllib.request
 
 scriptdir = os.path.dirname(os.path.realpath(__file__))
-extdir = scriptdir + "/../Extension/Resources"
+extdir = scriptdir + "/../../Extension/Resources"
 
 with open(scriptdir + "/supported_domains.txt") as f:
     tlds = f.read().splitlines()
