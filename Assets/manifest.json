@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "udm14 for Safari",
+  "description": "Redirects Google to 'Web' search mode by default",
+  "version": "1.0",
+  "icons": {
+    "48": "images/icon-48.png",
+    "64": "images/icon-64.png",
+    "96": "images/icon-96.png",
+    "128": "images/icon-128.png",
+    "144": "images/icon-144.png",
+    "192": "images/icon-192.png",
+    "256": "images/icon-256.png",
+    "512": "images/icon-512.png"
+  },
+  "permissions": [
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "*://*.google.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "redirect-rules.json"
+      }
+    ]
+  }
+}
