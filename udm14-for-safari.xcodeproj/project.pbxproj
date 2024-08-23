@@ -7,37 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		498576552C34CB610011EA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576542C34CB610011EA26 /* AppDelegate.swift */; };
-		498576572C34CB610011EA26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576562C34CB610011EA26 /* SceneDelegate.swift */; };
-		498576702C34CB610011EA26 /* udm14-for-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4985766F2C34CB610011EA26 /* udm14-for-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4985768A2C34CB610011EA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498576412C34CB610011EA26 /* Assets.xcassets */; };
-		4985768C2C34CB610011EA26 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576432C34CB610011EA26 /* SafariWebExtensionHandler.swift */; };
-		498576922C34CB610011EA26 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 498576472C34CB610011EA26 /* manifest.json */; };
-		498576942C34CB610011EA26 /* redirect-rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 498576482C34CB610011EA26 /* redirect-rules.json */; };
-		498576AF2C34D77E0011EA26 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576AE2C34D77E0011EA26 /* MainViewController.swift */; };
-		498576B12C34DBD40011EA26 /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576B02C34DBD40011EA26 /* PreferenceViewController.swift */; };
-		498576B32C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576B22C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift */; };
-		499DE6CE2C3A204A00760DA5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 499DE6CD2C3A204A00760DA5 /* images */; };
+		C9B2F7CE2C78ED2900C86EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F7CD2C78ED2900C86EE9 /* AppDelegate.swift */; };
+		C9B2F7D02C78ED2900C86EE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F7CF2C78ED2900C86EE9 /* SceneDelegate.swift */; };
+		C9B2F7D32C78ED2900C86EE9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7D22C78ED2900C86EE9 /* Base */; };
+		C9B2F7D62C78ED2900C86EE9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7D52C78ED2900C86EE9 /* Base */; };
+		C9B2F7DF2C78ED2900C86EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F7DE2C78ED2900C86EE9 /* AppDelegate.swift */; };
+		C9B2F7E22C78ED2900C86EE9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7E12C78ED2900C86EE9 /* Base */; };
+		C9B2F7E92C78ED2900C86EE9 /* udm14-for-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C9B2F7E82C78ED2900C86EE9 /* udm14-for-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9B2F7F32C78ED2900C86EE9 /* udm14-for-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C9B2F7F22C78ED2900C86EE9 /* udm14-for-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9B2F7F92C78ED2900C86EE9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7B52C78ED2800C86EE9 /* Base */; };
+		C9B2F7FA2C78ED2900C86EE9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7B52C78ED2800C86EE9 /* Base */; };
+		C9B2F7FB2C78ED2900C86EE9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7B62C78ED2800C86EE9 /* Icon.png */; };
+		C9B2F7FC2C78ED2900C86EE9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7B62C78ED2800C86EE9 /* Icon.png */; };
+		C9B2F7FD2C78ED2900C86EE9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7B72C78ED2800C86EE9 /* Style.css */; };
+		C9B2F7FE2C78ED2900C86EE9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7B72C78ED2800C86EE9 /* Style.css */; };
+		C9B2F7FF2C78ED2900C86EE9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7B82C78ED2800C86EE9 /* Script.js */; };
+		C9B2F8002C78ED2900C86EE9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7B82C78ED2800C86EE9 /* Script.js */; };
+		C9B2F8012C78ED2900C86EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F7B92C78ED2800C86EE9 /* ViewController.swift */; };
+		C9B2F8022C78ED2900C86EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F7B92C78ED2800C86EE9 /* ViewController.swift */; };
+		C9B2F8032C78ED2900C86EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7BA2C78ED2900C86EE9 /* Assets.xcassets */; };
+		C9B2F8042C78ED2900C86EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7BA2C78ED2900C86EE9 /* Assets.xcassets */; };
+		C9B2F8052C78ED2900C86EE9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F7BC2C78ED2900C86EE9 /* SafariWebExtensionHandler.swift */; };
+		C9B2F8062C78ED2900C86EE9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F7BC2C78ED2900C86EE9 /* SafariWebExtensionHandler.swift */; };
+		C9B2F8072C78ED2900C86EE9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7BE2C78ED2900C86EE9 /* _locales */; };
+		C9B2F8082C78ED2900C86EE9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7BE2C78ED2900C86EE9 /* _locales */; };
+		C9B2F8092C78ED2900C86EE9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7BF2C78ED2900C86EE9 /* images */; };
+		C9B2F80A2C78ED2900C86EE9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7BF2C78ED2900C86EE9 /* images */; };
+		C9B2F80B2C78ED2900C86EE9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7C02C78ED2900C86EE9 /* manifest.json */; };
+		C9B2F80C2C78ED2900C86EE9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F7C02C78ED2900C86EE9 /* manifest.json */; };
+		C9B2F8A22C78EF0100C86EE9 /* redirect-rules.json in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F8A12C78EF0100C86EE9 /* redirect-rules.json */; };
+		C9B2F8A32C78EF0100C86EE9 /* redirect-rules.json in Resources */ = {isa = PBXBuildFile; fileRef = C9B2F8A12C78EF0100C86EE9 /* redirect-rules.json */; };
+		C9B2F8AA2C78F18C00C86EE9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F8A82C78F18C00C86EE9 /* MainViewController.swift */; };
+		C9B2F8AB2C78F18C00C86EE9 /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F8A92C78F18C00C86EE9 /* PreferenceViewController.swift */; };
+		C9B2F8AE2C78F18C00C86EE9 /* UIView+AutoLayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2F8A42C78F18C00C86EE9 /* UIView+AutoLayoutBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		498576712C34CB610011EA26 /* PBXContainerItemProxy */ = {
+		C9B2F7EA2C78ED2900C86EE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 498576352C34CB600011EA26 /* Project object */;
+			containerPortal = C9B2F7AE2C78ED2800C86EE9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4985766E2C34CB610011EA26;
+			remoteGlobalIDString = C9B2F7E72C78ED2900C86EE9;
 			remoteInfo = "udm14-for-safari Extension (iOS)";
+		};
+		C9B2F7F42C78ED2900C86EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B2F7AE2C78ED2800C86EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B2F7F12C78ED2900C86EE9;
+			remoteInfo = "udm14-for-safari Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		498576A32C34CB610011EA26 /* Embed Foundation Extensions */ = {
+		C9B2F81C2C78ED2900C86EE9 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				498576702C34CB610011EA26 /* udm14-for-safari Extension.appex in Embed Foundation Extensions */,
+				C9B2F7E92C78ED2900C86EE9 /* udm14-for-safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B2F8232C78ED2900C86EE9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C9B2F7F32C78ED2900C86EE9 /* udm14-for-safari Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,31 +85,61 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		498576412C34CB610011EA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		498576432C34CB610011EA26 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		498576472C34CB610011EA26 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		498576482C34CB610011EA26 /* redirect-rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "redirect-rules.json"; sourceTree = "<group>"; };
-		498576512C34CB610011EA26 /* udm14-for-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udm14-for-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		498576542C34CB610011EA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		498576562C34CB610011EA26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4985765E2C34CB610011EA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4985766F2C34CB610011EA26 /* udm14-for-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "udm14-for-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		498576742C34CB610011EA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		498576AE2C34D77E0011EA26 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		498576B02C34DBD40011EA26 /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
-		498576B22C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayoutBuilder.swift"; sourceTree = "<group>"; };
-		499DE6CD2C3A204A00760DA5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C9B2F7B52C78ED2800C86EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C9B2F7B62C78ED2800C86EE9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C9B2F7B72C78ED2800C86EE9 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C9B2F7B82C78ED2800C86EE9 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C9B2F7B92C78ED2800C86EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9B2F7BA2C78ED2900C86EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9B2F7BC2C78ED2900C86EE9 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C9B2F7BE2C78ED2900C86EE9 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		C9B2F7BF2C78ED2900C86EE9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C9B2F7C02C78ED2900C86EE9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C9B2F7CA2C78ED2900C86EE9 /* udm14-for-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udm14-for-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B2F7CD2C78ED2900C86EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9B2F7CF2C78ED2900C86EE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9B2F7D22C78ED2900C86EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9B2F7D52C78ED2900C86EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9B2F7D72C78ED2900C86EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B2F7DC2C78ED2900C86EE9 /* udm14-for-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udm14-for-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B2F7DE2C78ED2900C86EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9B2F7E12C78ED2900C86EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9B2F7E32C78ED2900C86EE9 /* udm14-for-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "udm14-for-safari.entitlements"; sourceTree = "<group>"; };
+		C9B2F7E82C78ED2900C86EE9 /* udm14-for-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "udm14-for-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B2F7ED2C78ED2900C86EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B2F7F22C78ED2900C86EE9 /* udm14-for-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "udm14-for-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B2F7F72C78ED2900C86EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B2F7F82C78ED2900C86EE9 /* udm14-for-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "udm14-for-safari.entitlements"; sourceTree = "<group>"; };
+		C9B2F8A12C78EF0100C86EE9 /* redirect-rules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "redirect-rules.json"; sourceTree = "<group>"; };
+		C9B2F8A42C78F18C00C86EE9 /* UIView+AutoLayoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayoutBuilder.swift"; sourceTree = "<group>"; };
+		C9B2F8A72C78F18C00C86EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/2024-08-23/udm14-for-safari-master/App/Info.plist"; sourceTree = "<group>"; };
+		C9B2F8A82C78F18C00C86EE9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C9B2F8A92C78F18C00C86EE9 /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4985764E2C34CB610011EA26 /* Frameworks */ = {
+		C9B2F7C72C78ED2900C86EE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4985766C2C34CB610011EA26 /* Frameworks */ = {
+		C9B2F7D92C78ED2900C86EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B2F7E52C78ED2900C86EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B2F7EF2C78ED2900C86EE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,116 +149,214 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		498576342C34CB600011EA26 = {
+		C9B2F7AD2C78ED2800C86EE9 = {
 			isa = PBXGroup;
 			children = (
-				498576422C34CB610011EA26 /* Extension */,
-				498576532C34CB610011EA26 /* App */,
-				498576522C34CB610011EA26 /* Products */,
+				C9B2F7B22C78ED2800C86EE9 /* Shared (App) */,
+				C9B2F7BB2C78ED2900C86EE9 /* Shared (Extension) */,
+				C9B2F7CC2C78ED2900C86EE9 /* iOS (App) */,
+				C9B2F7DD2C78ED2900C86EE9 /* macOS (App) */,
+				C9B2F7EC2C78ED2900C86EE9 /* iOS (Extension) */,
+				C9B2F7F62C78ED2900C86EE9 /* macOS (Extension) */,
+				C9B2F7CB2C78ED2900C86EE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		498576422C34CB610011EA26 /* Extension */ = {
+		C9B2F7B22C78ED2800C86EE9 /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				498576742C34CB610011EA26 /* Info.plist */,
-				498576442C34CB610011EA26 /* Resources */,
-				498576432C34CB610011EA26 /* SafariWebExtensionHandler.swift */,
+				C9B2F7B92C78ED2800C86EE9 /* ViewController.swift */,
+				C9B2F7BA2C78ED2900C86EE9 /* Assets.xcassets */,
+				C9B2F7B32C78ED2800C86EE9 /* Resources */,
 			);
-			path = Extension;
+			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		498576442C34CB610011EA26 /* Resources */ = {
+		C9B2F7B32C78ED2800C86EE9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				499DE6CD2C3A204A00760DA5 /* images */,
-				498576472C34CB610011EA26 /* manifest.json */,
-				498576482C34CB610011EA26 /* redirect-rules.json */,
+				C9B2F7B42C78ED2800C86EE9 /* Main.html */,
+				C9B2F7B62C78ED2800C86EE9 /* Icon.png */,
+				C9B2F7B72C78ED2800C86EE9 /* Style.css */,
+				C9B2F7B82C78ED2800C86EE9 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		498576522C34CB610011EA26 /* Products */ = {
+		C9B2F7BB2C78ED2900C86EE9 /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				498576512C34CB610011EA26 /* udm14-for-safari.app */,
-				4985766F2C34CB610011EA26 /* udm14-for-safari Extension.appex */,
+				C9B2F7BC2C78ED2900C86EE9 /* SafariWebExtensionHandler.swift */,
+				C9B2F7BD2C78ED2900C86EE9 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C9B2F7BD2C78ED2900C86EE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9B2F7BE2C78ED2900C86EE9 /* _locales */,
+				C9B2F7BF2C78ED2900C86EE9 /* images */,
+				C9B2F7C02C78ED2900C86EE9 /* manifest.json */,
+				C9B2F8A12C78EF0100C86EE9 /* redirect-rules.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9B2F7CB2C78ED2900C86EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B2F7CA2C78ED2900C86EE9 /* udm14-for-safari.app */,
+				C9B2F7DC2C78ED2900C86EE9 /* udm14-for-safari.app */,
+				C9B2F7E82C78ED2900C86EE9 /* udm14-for-safari Extension.appex */,
+				C9B2F7F22C78ED2900C86EE9 /* udm14-for-safari Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		498576532C34CB610011EA26 /* App */ = {
+		C9B2F7CC2C78ED2900C86EE9 /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				498576542C34CB610011EA26 /* AppDelegate.swift */,
-				498576412C34CB610011EA26 /* Assets.xcassets */,
-				4985765E2C34CB610011EA26 /* Info.plist */,
-				498576AE2C34D77E0011EA26 /* MainViewController.swift */,
-				498576B02C34DBD40011EA26 /* PreferenceViewController.swift */,
-				498576562C34CB610011EA26 /* SceneDelegate.swift */,
-				498576B22C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift */,
+				C9B2F7CD2C78ED2900C86EE9 /* AppDelegate.swift */,
+				C9B2F8A72C78F18C00C86EE9 /* Info.plist */,
+				C9B2F8A82C78F18C00C86EE9 /* MainViewController.swift */,
+				C9B2F8A92C78F18C00C86EE9 /* PreferenceViewController.swift */,
+				C9B2F7CF2C78ED2900C86EE9 /* SceneDelegate.swift */,
+				C9B2F8A42C78F18C00C86EE9 /* UIView+AutoLayoutBuilder.swift */,
+				C9B2F7D12C78ED2900C86EE9 /* LaunchScreen.storyboard */,
+				C9B2F7D42C78ED2900C86EE9 /* Main.storyboard */,
+				C9B2F7D72C78ED2900C86EE9 /* Info.plist */,
 			);
-			path = App;
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C9B2F7DD2C78ED2900C86EE9 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C9B2F7DE2C78ED2900C86EE9 /* AppDelegate.swift */,
+				C9B2F7E02C78ED2900C86EE9 /* Main.storyboard */,
+				C9B2F7E32C78ED2900C86EE9 /* udm14-for-safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C9B2F7EC2C78ED2900C86EE9 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C9B2F7ED2C78ED2900C86EE9 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C9B2F7F62C78ED2900C86EE9 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C9B2F7F72C78ED2900C86EE9 /* Info.plist */,
+				C9B2F7F82C78ED2900C86EE9 /* udm14-for-safari.entitlements */,
+			);
+			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		498576502C34CB610011EA26 /* App */ = {
+		C9B2F7C92C78ED2900C86EE9 /* udm14-for-safari (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 498576A42C34CB610011EA26 /* Build configuration list for PBXNativeTarget "App" */;
+			buildConfigurationList = C9B2F81D2C78ED2900C86EE9 /* Build configuration list for PBXNativeTarget "udm14-for-safari (iOS)" */;
 			buildPhases = (
-				4985764D2C34CB610011EA26 /* Sources */,
-				4985764E2C34CB610011EA26 /* Frameworks */,
-				4985764F2C34CB610011EA26 /* Resources */,
-				498576A32C34CB610011EA26 /* Embed Foundation Extensions */,
+				C9B2F7C62C78ED2900C86EE9 /* Sources */,
+				C9B2F7C72C78ED2900C86EE9 /* Frameworks */,
+				C9B2F7C82C78ED2900C86EE9 /* Resources */,
+				C9B2F81C2C78ED2900C86EE9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				498576722C34CB610011EA26 /* PBXTargetDependency */,
+				C9B2F7EB2C78ED2900C86EE9 /* PBXTargetDependency */,
 			);
-			name = App;
+			name = "udm14-for-safari (iOS)";
 			productName = "udm14-for-safari (iOS)";
-			productReference = 498576512C34CB610011EA26 /* udm14-for-safari.app */;
+			productReference = C9B2F7CA2C78ED2900C86EE9 /* udm14-for-safari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4985766E2C34CB610011EA26 /* Extension */ = {
+		C9B2F7DB2C78ED2900C86EE9 /* udm14-for-safari (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 498576A02C34CB610011EA26 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildConfigurationList = C9B2F8242C78ED2900C86EE9 /* Build configuration list for PBXNativeTarget "udm14-for-safari (macOS)" */;
 			buildPhases = (
-				4985766B2C34CB610011EA26 /* Sources */,
-				4985766C2C34CB610011EA26 /* Frameworks */,
-				4985766D2C34CB610011EA26 /* Resources */,
+				C9B2F7D82C78ED2900C86EE9 /* Sources */,
+				C9B2F7D92C78ED2900C86EE9 /* Frameworks */,
+				C9B2F7DA2C78ED2900C86EE9 /* Resources */,
+				C9B2F8232C78ED2900C86EE9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B2F7F52C78ED2900C86EE9 /* PBXTargetDependency */,
+			);
+			name = "udm14-for-safari (macOS)";
+			productName = "udm14-for-safari (macOS)";
+			productReference = C9B2F7DC2C78ED2900C86EE9 /* udm14-for-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9B2F7E72C78ED2900C86EE9 /* udm14-for-safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B2F8192C78ED2900C86EE9 /* Build configuration list for PBXNativeTarget "udm14-for-safari Extension (iOS)" */;
+			buildPhases = (
+				C9B2F7E42C78ED2900C86EE9 /* Sources */,
+				C9B2F7E52C78ED2900C86EE9 /* Frameworks */,
+				C9B2F7E62C78ED2900C86EE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Extension;
+			name = "udm14-for-safari Extension (iOS)";
 			productName = "udm14-for-safari Extension (iOS)";
-			productReference = 4985766F2C34CB610011EA26 /* udm14-for-safari Extension.appex */;
+			productReference = C9B2F7E82C78ED2900C86EE9 /* udm14-for-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C9B2F7F12C78ED2900C86EE9 /* udm14-for-safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B2F8202C78ED2900C86EE9 /* Build configuration list for PBXNativeTarget "udm14-for-safari Extension (macOS)" */;
+			buildPhases = (
+				C9B2F7EE2C78ED2900C86EE9 /* Sources */,
+				C9B2F7EF2C78ED2900C86EE9 /* Frameworks */,
+				C9B2F7F02C78ED2900C86EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "udm14-for-safari Extension (macOS)";
+			productName = "udm14-for-safari Extension (macOS)";
+			productReference = C9B2F7F22C78ED2900C86EE9 /* udm14-for-safari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		498576352C34CB600011EA26 /* Project object */ = {
+		C9B2F7AE2C78ED2800C86EE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					498576502C34CB610011EA26 = {
+					C9B2F7C92C78ED2900C86EE9 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					4985766E2C34CB610011EA26 = {
+					C9B2F7DB2C78ED2900C86EE9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C9B2F7E72C78ED2900C86EE9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C9B2F7F12C78ED2900C86EE9 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 498576382C34CB600011EA26 /* Build configuration list for PBXProject "udm14-for-safari" */;
+			buildConfigurationList = C9B2F7B12C78ED2800C86EE9 /* Build configuration list for PBXProject "udm14-for-safari" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -196,71 +364,162 @@
 				en,
 				Base,
 			);
-			mainGroup = 498576342C34CB600011EA26;
-			productRefGroup = 498576522C34CB610011EA26 /* Products */;
+			mainGroup = C9B2F7AD2C78ED2800C86EE9;
+			productRefGroup = C9B2F7CB2C78ED2900C86EE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				498576502C34CB610011EA26 /* App */,
-				4985766E2C34CB610011EA26 /* Extension */,
+				C9B2F7C92C78ED2900C86EE9 /* udm14-for-safari (iOS) */,
+				C9B2F7DB2C78ED2900C86EE9 /* udm14-for-safari (macOS) */,
+				C9B2F7E72C78ED2900C86EE9 /* udm14-for-safari Extension (iOS) */,
+				C9B2F7F12C78ED2900C86EE9 /* udm14-for-safari Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4985764F2C34CB610011EA26 /* Resources */ = {
+		C9B2F7C82C78ED2900C86EE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4985768A2C34CB610011EA26 /* Assets.xcassets in Resources */,
+				C9B2F7FB2C78ED2900C86EE9 /* Icon.png in Resources */,
+				C9B2F7D32C78ED2900C86EE9 /* Base in Resources */,
+				C9B2F7F92C78ED2900C86EE9 /* Base in Resources */,
+				C9B2F7FF2C78ED2900C86EE9 /* Script.js in Resources */,
+				C9B2F8032C78ED2900C86EE9 /* Assets.xcassets in Resources */,
+				C9B2F7D62C78ED2900C86EE9 /* Base in Resources */,
+				C9B2F7FD2C78ED2900C86EE9 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4985766D2C34CB610011EA26 /* Resources */ = {
+		C9B2F7DA2C78ED2900C86EE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499DE6CE2C3A204A00760DA5 /* images in Resources */,
-				498576942C34CB610011EA26 /* redirect-rules.json in Resources */,
-				498576922C34CB610011EA26 /* manifest.json in Resources */,
+				C9B2F7FC2C78ED2900C86EE9 /* Icon.png in Resources */,
+				C9B2F7FE2C78ED2900C86EE9 /* Style.css in Resources */,
+				C9B2F7E22C78ED2900C86EE9 /* Base in Resources */,
+				C9B2F8002C78ED2900C86EE9 /* Script.js in Resources */,
+				C9B2F8042C78ED2900C86EE9 /* Assets.xcassets in Resources */,
+				C9B2F7FA2C78ED2900C86EE9 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B2F7E62C78ED2900C86EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B2F8A22C78EF0100C86EE9 /* redirect-rules.json in Resources */,
+				C9B2F8092C78ED2900C86EE9 /* images in Resources */,
+				C9B2F80B2C78ED2900C86EE9 /* manifest.json in Resources */,
+				C9B2F8072C78ED2900C86EE9 /* _locales in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B2F7F02C78ED2900C86EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B2F8A32C78EF0100C86EE9 /* redirect-rules.json in Resources */,
+				C9B2F80A2C78ED2900C86EE9 /* images in Resources */,
+				C9B2F80C2C78ED2900C86EE9 /* manifest.json in Resources */,
+				C9B2F8082C78ED2900C86EE9 /* _locales in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4985764D2C34CB610011EA26 /* Sources */ = {
+		C9B2F7C62C78ED2900C86EE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498576552C34CB610011EA26 /* AppDelegate.swift in Sources */,
-				498576572C34CB610011EA26 /* SceneDelegate.swift in Sources */,
-				498576AF2C34D77E0011EA26 /* MainViewController.swift in Sources */,
-				498576B12C34DBD40011EA26 /* PreferenceViewController.swift in Sources */,
-				498576B32C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift in Sources */,
+				C9B2F8AB2C78F18C00C86EE9 /* PreferenceViewController.swift in Sources */,
+				C9B2F8AE2C78F18C00C86EE9 /* UIView+AutoLayoutBuilder.swift in Sources */,
+				C9B2F8012C78ED2900C86EE9 /* ViewController.swift in Sources */,
+				C9B2F7CE2C78ED2900C86EE9 /* AppDelegate.swift in Sources */,
+				C9B2F7D02C78ED2900C86EE9 /* SceneDelegate.swift in Sources */,
+				C9B2F8AA2C78F18C00C86EE9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4985766B2C34CB610011EA26 /* Sources */ = {
+		C9B2F7D82C78ED2900C86EE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4985768C2C34CB610011EA26 /* SafariWebExtensionHandler.swift in Sources */,
+				C9B2F8022C78ED2900C86EE9 /* ViewController.swift in Sources */,
+				C9B2F7DF2C78ED2900C86EE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B2F7E42C78ED2900C86EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B2F8052C78ED2900C86EE9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B2F7EE2C78ED2900C86EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B2F8062C78ED2900C86EE9 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		498576722C34CB610011EA26 /* PBXTargetDependency */ = {
+		C9B2F7EB2C78ED2900C86EE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4985766E2C34CB610011EA26 /* Extension */;
-			targetProxy = 498576712C34CB610011EA26 /* PBXContainerItemProxy */;
+			target = C9B2F7E72C78ED2900C86EE9 /* udm14-for-safari Extension (iOS) */;
+			targetProxy = C9B2F7EA2C78ED2900C86EE9 /* PBXContainerItemProxy */;
+		};
+		C9B2F7F52C78ED2900C86EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B2F7F12C78ED2900C86EE9 /* udm14-for-safari Extension (macOS) */;
+			targetProxy = C9B2F7F42C78ED2900C86EE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		C9B2F7B42C78ED2800C86EE9 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B2F7B52C78ED2800C86EE9 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C9B2F7D12C78ED2900C86EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B2F7D22C78ED2900C86EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9B2F7D42C78ED2900C86EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B2F7D52C78ED2900C86EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9B2F7E02C78ED2900C86EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B2F7E12C78ED2900C86EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		4985769E2C34CB610011EA26 /* Debug */ = {
+		C9B2F8172C78ED2900C86EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,7 +580,7 @@
 			};
 			name = Debug;
 		};
-		4985769F2C34CB610011EA26 /* Release */ = {
+		C9B2F8182C78ED2900C86EE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,14 +633,17 @@
 			};
 			name = Release;
 		};
-		498576A12C34CB610011EA26 /* Debug */ = {
+		C9B2F81A2C78ED2900C86EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 23S4K4RW8P;
-				INFOPLIST_FILE = Extension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "udm14-for-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +656,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari.Extension";
 				PRODUCT_NAME = "udm14-for-safari Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -402,14 +665,17 @@
 			};
 			name = Debug;
 		};
-		498576A22C34CB610011EA26 /* Release */ = {
+		C9B2F81B2C78ED2900C86EE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 23S4K4RW8P;
-				INFOPLIST_FILE = Extension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "udm14-for-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,6 +688,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari.Extension";
 				PRODUCT_NAME = "udm14-for-safari Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -431,17 +698,24 @@
 			};
 			name = Release;
 		};
-		498576A52C34CB610011EA26 /* Debug */ = {
+		C9B2F81E2C78ED2900C86EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 23S4K4RW8P;
-				INFOPLIST_FILE = App/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "udm14 for Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,28 +729,32 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari";
 				PRODUCT_NAME = "udm14-for-safari";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		498576A62C34CB610011EA26 /* Release */ = {
+		C9B2F81F2C78ED2900C86EE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 23S4K4RW8P;
-				INFOPLIST_FILE = App/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "udm14 for Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,49 +768,202 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari";
 				PRODUCT_NAME = "udm14-for-safari";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B2F8212C78ED2900C86EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/udm14-for-safari.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "udm14-for-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari.Extension";
+				PRODUCT_NAME = "udm14-for-safari Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C9B2F8222C78ED2900C86EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/udm14-for-safari.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "udm14-for-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari.Extension";
+				PRODUCT_NAME = "udm14-for-safari Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C9B2F8252C78ED2900C86EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/udm14-for-safari.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "udm14 for Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari";
+				PRODUCT_NAME = "udm14-for-safari";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C9B2F8262C78ED2900C86EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/udm14-for-safari.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "udm14 for Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari";
+				PRODUCT_NAME = "udm14-for-safari";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		498576382C34CB600011EA26 /* Build configuration list for PBXProject "udm14-for-safari" */ = {
+		C9B2F7B12C78ED2800C86EE9 /* Build configuration list for PBXProject "udm14-for-safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4985769E2C34CB610011EA26 /* Debug */,
-				4985769F2C34CB610011EA26 /* Release */,
+				C9B2F8172C78ED2900C86EE9 /* Debug */,
+				C9B2F8182C78ED2900C86EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		498576A02C34CB610011EA26 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+		C9B2F8192C78ED2900C86EE9 /* Build configuration list for PBXNativeTarget "udm14-for-safari Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				498576A12C34CB610011EA26 /* Debug */,
-				498576A22C34CB610011EA26 /* Release */,
+				C9B2F81A2C78ED2900C86EE9 /* Debug */,
+				C9B2F81B2C78ED2900C86EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		498576A42C34CB610011EA26 /* Build configuration list for PBXNativeTarget "App" */ = {
+		C9B2F81D2C78ED2900C86EE9 /* Build configuration list for PBXNativeTarget "udm14-for-safari (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				498576A52C34CB610011EA26 /* Debug */,
-				498576A62C34CB610011EA26 /* Release */,
+				C9B2F81E2C78ED2900C86EE9 /* Debug */,
+				C9B2F81F2C78ED2900C86EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B2F8202C78ED2900C86EE9 /* Build configuration list for PBXNativeTarget "udm14-for-safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B2F8212C78ED2900C86EE9 /* Debug */,
+				C9B2F8222C78ED2900C86EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B2F8242C78ED2900C86EE9 /* Build configuration list for PBXNativeTarget "udm14-for-safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B2F8252C78ED2900C86EE9 /* Debug */,
+				C9B2F8262C78ED2900C86EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 498576352C34CB600011EA26 /* Project object */;
+	rootObject = C9B2F7AE2C78ED2800C86EE9 /* Project object */;
 }
