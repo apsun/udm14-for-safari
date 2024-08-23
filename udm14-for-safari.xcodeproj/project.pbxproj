@@ -112,7 +112,6 @@
 		C9B2F7F82C78ED2900C86EE9 /* udm14-for-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "udm14-for-safari.entitlements"; sourceTree = "<group>"; };
 		C9B2F8A12C78EF0100C86EE9 /* redirect-rules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "redirect-rules.json"; sourceTree = "<group>"; };
 		C9B2F8A42C78F18C00C86EE9 /* UIView+AutoLayoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayoutBuilder.swift"; sourceTree = "<group>"; };
-		C9B2F8A72C78F18C00C86EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/2024-08-23/udm14-for-safari-master/App/Info.plist"; sourceTree = "<group>"; };
 		C9B2F8A82C78F18C00C86EE9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C9B2F8A92C78F18C00C86EE9 /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,7 +217,6 @@
 			isa = PBXGroup;
 			children = (
 				C9B2F7CD2C78ED2900C86EE9 /* AppDelegate.swift */,
-				C9B2F8A72C78F18C00C86EE9 /* Info.plist */,
 				C9B2F8A82C78F18C00C86EE9 /* MainViewController.swift */,
 				C9B2F8A92C78F18C00C86EE9 /* PreferenceViewController.swift */,
 				C9B2F7CF2C78ED2900C86EE9 /* SceneDelegate.swift */,
