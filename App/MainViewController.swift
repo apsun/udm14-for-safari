@@ -31,7 +31,7 @@ fileprivate class MainViewControllerImpl
                 preferences: [
                     Preference(
                         id: Self.prefSettings,
-                        type: .button(label: "Open Safari extension settings")
+                        type: .button(label: "Open Safari settings")
                     ),
                 ]
             ),
@@ -65,7 +65,11 @@ fileprivate class MainViewControllerImpl
     func preferenceView(didClickButton id: String) {
         switch id {
         case Self.prefSettings:
-            UIApplication.shared.open(URL(string: "App-Prefs:SAFARI&path=WEB_EXTENSIONS")!)
+            if #available(iOS 18.0, *) {
+                UIApplication.shared.open(URL(string: "App-Prefs:com.apple.mobilesafari")!)
+            } else {
+                UIApplication.shared.open(URL(string: "App-Prefs:SAFARI&path=WEB_EXTENSIONS")!)
+            }
         case Self.prefGitHub:
             UIApplication.shared.open(URL(string: "https://github.com/apsun/udm14-for-safari")!)
         case Self.prefUdm14:
