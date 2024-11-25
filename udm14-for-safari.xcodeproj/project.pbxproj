@@ -3,24 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		498576552C34CB610011EA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576542C34CB610011EA26 /* AppDelegate.swift */; };
-		498576572C34CB610011EA26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576562C34CB610011EA26 /* SceneDelegate.swift */; };
-		498576702C34CB610011EA26 /* udm14-for-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4985766F2C34CB610011EA26 /* udm14-for-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4985768A2C34CB610011EA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498576412C34CB610011EA26 /* Assets.xcassets */; };
-		4985768C2C34CB610011EA26 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576432C34CB610011EA26 /* SafariWebExtensionHandler.swift */; };
-		498576922C34CB610011EA26 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 498576472C34CB610011EA26 /* manifest.json */; };
-		498576942C34CB610011EA26 /* redirect-rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 498576482C34CB610011EA26 /* redirect-rules.json */; };
-		498576AF2C34D77E0011EA26 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576AE2C34D77E0011EA26 /* MainViewController.swift */; };
-		498576B12C34DBD40011EA26 /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576B02C34DBD40011EA26 /* PreferenceViewController.swift */; };
-		498576B32C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498576B22C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift */; };
-		499DE6CE2C3A204A00760DA5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 499DE6CD2C3A204A00760DA5 /* images */; };
+		490EC19B2CE89860007C0BAE /* udm14 for Safari (Extension).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		498576702C34CB610011EA26 /* udm14 for Safari (Extension).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		490EC19C2CE89860007C0BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498576352C34CB600011EA26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4985766E2C34CB610011EA26;
+			remoteInfo = Extension;
+		};
 		498576712C34CB610011EA26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 498576352C34CB600011EA26 /* Project object */;
@@ -31,13 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		490EC19E2CE89861007C0BAE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				490EC19B2CE89860007C0BAE /* udm14 for Safari (Extension).appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		498576A32C34CB610011EA26 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				498576702C34CB610011EA26 /* udm14-for-safari Extension.appex in Embed Foundation Extensions */,
+				498576702C34CB610011EA26 /* udm14 for Safari (Extension).appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,23 +54,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		498576412C34CB610011EA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		498576432C34CB610011EA26 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		498576472C34CB610011EA26 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		498576482C34CB610011EA26 /* redirect-rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "redirect-rules.json"; sourceTree = "<group>"; };
-		498576512C34CB610011EA26 /* udm14-for-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udm14-for-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		498576542C34CB610011EA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		498576562C34CB610011EA26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4985765E2C34CB610011EA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4985766F2C34CB610011EA26 /* udm14-for-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "udm14-for-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		498576742C34CB610011EA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		498576AE2C34D77E0011EA26 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		498576B02C34DBD40011EA26 /* PreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceViewController.swift; sourceTree = "<group>"; };
-		498576B22C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayoutBuilder.swift"; sourceTree = "<group>"; };
-		499DE6CD2C3A204A00760DA5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		490EC18B2CE89804007C0BAE /* udm14 for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udm14 for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		498576512C34CB610011EA26 /* udm14 for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udm14 for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "udm14 for Safari (Extension).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		494492A62CF458060021BCD2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 498576502C34CB610011EA26 /* iOS */;
+		};
+		494492B42CF4580A0021BCD2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4985766E2C34CB610011EA26 /* Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		490EC18C2CE89804007C0BAE /* macOS */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = macOS; sourceTree = "<group>"; };
+		4944929E2CF458060021BCD2 /* iOS */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (494492A62CF458060021BCD2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = iOS; sourceTree = "<group>"; };
+		494492AE2CF4580A0021BCD2 /* Extension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (494492B42CF4580A0021BCD2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (Resources/images, ); path = Extension; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		490EC1882CE89804007C0BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4985764E2C34CB610011EA26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,61 +110,53 @@
 		498576342C34CB600011EA26 = {
 			isa = PBXGroup;
 			children = (
-				498576422C34CB610011EA26 /* Extension */,
-				498576532C34CB610011EA26 /* App */,
+				494492AE2CF4580A0021BCD2 /* Extension */,
+				4944929E2CF458060021BCD2 /* iOS */,
+				490EC18C2CE89804007C0BAE /* macOS */,
 				498576522C34CB610011EA26 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		498576422C34CB610011EA26 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				498576742C34CB610011EA26 /* Info.plist */,
-				498576442C34CB610011EA26 /* Resources */,
-				498576432C34CB610011EA26 /* SafariWebExtensionHandler.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		498576442C34CB610011EA26 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				499DE6CD2C3A204A00760DA5 /* images */,
-				498576472C34CB610011EA26 /* manifest.json */,
-				498576482C34CB610011EA26 /* redirect-rules.json */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		498576522C34CB610011EA26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				498576512C34CB610011EA26 /* udm14-for-safari.app */,
-				4985766F2C34CB610011EA26 /* udm14-for-safari Extension.appex */,
+				498576512C34CB610011EA26 /* udm14 for Safari.app */,
+				4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */,
+				490EC18B2CE89804007C0BAE /* udm14 for Safari.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		498576532C34CB610011EA26 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				498576542C34CB610011EA26 /* AppDelegate.swift */,
-				498576412C34CB610011EA26 /* Assets.xcassets */,
-				4985765E2C34CB610011EA26 /* Info.plist */,
-				498576AE2C34D77E0011EA26 /* MainViewController.swift */,
-				498576B02C34DBD40011EA26 /* PreferenceViewController.swift */,
-				498576562C34CB610011EA26 /* SceneDelegate.swift */,
-				498576B22C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		498576502C34CB610011EA26 /* App */ = {
+		490EC18A2CE89804007C0BAE /* macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 498576A42C34CB610011EA26 /* Build configuration list for PBXNativeTarget "App" */;
+			buildConfigurationList = 490EC1972CE89805007C0BAE /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				490EC1872CE89804007C0BAE /* Sources */,
+				490EC1882CE89804007C0BAE /* Frameworks */,
+				490EC1892CE89804007C0BAE /* Resources */,
+				490EC19E2CE89861007C0BAE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490EC19D2CE89860007C0BAE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				490EC18C2CE89804007C0BAE /* macOS */,
+			);
+			name = macOS;
+			packageProductDependencies = (
+			);
+			productName = macOS;
+			productReference = 490EC18B2CE89804007C0BAE /* udm14 for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		498576502C34CB610011EA26 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498576A42C34CB610011EA26 /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
 				4985764D2C34CB610011EA26 /* Sources */,
 				4985764E2C34CB610011EA26 /* Frameworks */,
@@ -148,9 +168,12 @@
 			dependencies = (
 				498576722C34CB610011EA26 /* PBXTargetDependency */,
 			);
-			name = App;
+			fileSystemSynchronizedGroups = (
+				4944929E2CF458060021BCD2 /* iOS */,
+			);
+			name = iOS;
 			productName = "udm14-for-safari (iOS)";
-			productReference = 498576512C34CB610011EA26 /* udm14-for-safari.app */;
+			productReference = 498576512C34CB610011EA26 /* udm14 for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4985766E2C34CB610011EA26 /* Extension */ = {
@@ -165,9 +188,12 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				494492AE2CF4580A0021BCD2 /* Extension */,
+			);
 			name = Extension;
 			productName = "udm14-for-safari Extension (iOS)";
-			productReference = 4985766F2C34CB610011EA26 /* udm14-for-safari Extension.appex */;
+			productReference = 4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -177,9 +203,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					490EC18A2CE89804007C0BAE = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					498576502C34CB610011EA26 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -201,18 +230,25 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				498576502C34CB610011EA26 /* App */,
 				4985766E2C34CB610011EA26 /* Extension */,
+				498576502C34CB610011EA26 /* iOS */,
+				490EC18A2CE89804007C0BAE /* macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		490EC1892CE89804007C0BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4985764F2C34CB610011EA26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4985768A2C34CB610011EA26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,24 +256,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499DE6CE2C3A204A00760DA5 /* images in Resources */,
-				498576942C34CB610011EA26 /* redirect-rules.json in Resources */,
-				498576922C34CB610011EA26 /* manifest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		490EC1872CE89804007C0BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4985764D2C34CB610011EA26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498576552C34CB610011EA26 /* AppDelegate.swift in Sources */,
-				498576572C34CB610011EA26 /* SceneDelegate.swift in Sources */,
-				498576AF2C34D77E0011EA26 /* MainViewController.swift in Sources */,
-				498576B12C34DBD40011EA26 /* PreferenceViewController.swift in Sources */,
-				498576B32C34DCAD0011EA26 /* UIView+AutoLayoutBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,13 +280,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4985768C2C34CB610011EA26 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		490EC19D2CE89860007C0BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4985766E2C34CB610011EA26 /* Extension */;
+			targetProxy = 490EC19C2CE89860007C0BAE /* PBXContainerItemProxy */;
+		};
 		498576722C34CB610011EA26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4985766E2C34CB610011EA26 /* Extension */;
@@ -260,6 +299,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		490EC1982CE89805007C0BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23S4K4RW8P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari";
+				PRODUCT_NAME = "udm14 for Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		490EC1992CE89805007C0BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23S4K4RW8P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari";
+				PRODUCT_NAME = "udm14 for Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		4985769E2C34CB610011EA26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -377,6 +466,7 @@
 		498576A12C34CB610011EA26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 23S4K4RW8P;
@@ -387,15 +477,21 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari.Extension";
-				PRODUCT_NAME = "udm14-for-safari Extension";
+				PRODUCT_NAME = "udm14 for Safari (Extension)";
+				REGISTER_APP_GROUPS = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -405,6 +501,7 @@
 		498576A22C34CB610011EA26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 23S4K4RW8P;
@@ -415,15 +512,21 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari.Extension";
-				PRODUCT_NAME = "udm14-for-safari Extension";
+				PRODUCT_NAME = "udm14 for Safari (Extension)";
+				REGISTER_APP_GROUPS = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -434,30 +537,19 @@
 		498576A52C34CB610011EA26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 23S4K4RW8P;
-				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari";
-				PRODUCT_NAME = "udm14-for-safari";
+				PRODUCT_NAME = "udm14 for Safari";
+				REGISTER_APP_GROUPS = NO;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -469,30 +561,19 @@
 		498576A62C34CB610011EA26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 23S4K4RW8P;
-				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari";
-				PRODUCT_NAME = "udm14-for-safari";
+				PRODUCT_NAME = "udm14 for Safari";
+				REGISTER_APP_GROUPS = NO;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -505,6 +586,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		490EC1972CE89805007C0BAE /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490EC1982CE89805007C0BAE /* Debug */,
+				490EC1992CE89805007C0BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		498576382C34CB600011EA26 /* Build configuration list for PBXProject "udm14-for-safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -523,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		498576A42C34CB610011EA26 /* Build configuration list for PBXNativeTarget "App" */ = {
+		498576A42C34CB610011EA26 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				498576A52C34CB610011EA26 /* Debug */,
