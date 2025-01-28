@@ -8,7 +8,7 @@ class MainViewController: NSViewController {
             withIdentifier: "com.crossbowffs.udm14-for-safari.Extension"
         ) { error in
             DispatchQueue.main.async {
-                NSApp.terminate(self)
+                // NSApp.terminate(self)
             }
         }
     }
@@ -16,19 +16,16 @@ class MainViewController: NSViewController {
     override func viewDidLoad() {
         let view = self.view
 
-        let label = NSTextField(string: """
+        let label = NSTextField(wrappingLabelWithString: """
             Enable the extension in Safari settings, grant permissions for google.com, \
             and you're all set!
             """
         )
-        label.isBezeled = false
-        label.drawsBackground = false
-        label.isEditable = false
-        label.isSelectable = false
         label.autoLayoutInView(view)
-            .left(view.leadingAnchor, constant: 8)
-            .right(view.trailingAnchor, constant: -8)
-            .top(view.topAnchor, constant: 8)
+            .width(352)
+            .left(view.leadingAnchor, constant: 16)
+            .right(view.trailingAnchor, constant: -16)
+            .top(view.topAnchor, constant: 16)
             .activate()
 
         let button = NSButton(
@@ -38,8 +35,8 @@ class MainViewController: NSViewController {
         )
         button.autoLayoutInView(view)
             .centerX(view.centerXAnchor)
-            .below(label)
-            .bottom(view.bottomAnchor, constant: -8)
+            .top(label.bottomAnchor, constant: 16)
+            .bottom(view.bottomAnchor, constant: -16)
             .activate()
     }
 }
