@@ -16,7 +16,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                         .action(
                             title: "Hide udm14 for Safari",
                             action: #selector(NSApplication.hide(_:)),
-                            keyEquivalent: "h"
+                            keyEquivalent: "h",
+                            keyEquivalentModifierMask: [.command]
                         ),
                         .action(
                             title: "Hide Others",
@@ -32,7 +33,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                         .action(
                             title: "Quit udm14 for Safari",
                             action: #selector(NSApplication.terminate(_:)),
-                            keyEquivalent: "q"
+                            keyEquivalent: "q",
+                            keyEquivalentModifierMask: [.command]
                         )
                     ]
                 )
