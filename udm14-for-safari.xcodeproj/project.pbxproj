@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490EC19B2CE89860007C0BAE /* udm14 for Safari (Extension).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		498576702C34CB610011EA26 /* udm14 for Safari (Extension).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		490EC19B2CE89860007C0BAE /* udm14 for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4985766F2C34CB610011EA26 /* udm14 for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		498576702C34CB610011EA26 /* udm14 for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4985766F2C34CB610011EA26 /* udm14 for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				490EC19B2CE89860007C0BAE /* udm14 for Safari (Extension).appex in Embed Foundation Extensions */,
+				490EC19B2CE89860007C0BAE /* udm14 for Safari Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				498576702C34CB610011EA26 /* udm14 for Safari (Extension).appex in Embed Foundation Extensions */,
+				498576702C34CB610011EA26 /* udm14 for Safari Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +56,7 @@
 /* Begin PBXFileReference section */
 		490EC18B2CE89804007C0BAE /* udm14 for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udm14 for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		498576512C34CB610011EA26 /* udm14 for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udm14 for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "udm14 for Safari (Extension).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4985766F2C34CB610011EA26 /* udm14 for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "udm14 for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				498576512C34CB610011EA26 /* udm14 for Safari.app */,
-				4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */,
+				4985766F2C34CB610011EA26 /* udm14 for Safari Extension.appex */,
 				490EC18B2CE89804007C0BAE /* udm14 for Safari.app */,
 			);
 			name = Products;
@@ -200,7 +200,7 @@
 			);
 			name = Extension;
 			productName = "udm14-for-safari Extension (iOS)";
-			productReference = 4985766F2C34CB610011EA26 /* udm14 for Safari (Extension).appex */;
+			productReference = 4985766F2C34CB610011EA26 /* udm14 for Safari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -495,7 +495,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari.Extension";
-				PRODUCT_NAME = "udm14 for Safari (Extension)";
+				PRODUCT_NAME = "udm14 for Safari Extension";
 				REGISTER_APP_GROUPS = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -530,7 +530,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crossbowffs.udm14-for-safari.Extension";
-				PRODUCT_NAME = "udm14 for Safari (Extension)";
+				PRODUCT_NAME = "udm14 for Safari Extension";
 				REGISTER_APP_GROUPS = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
